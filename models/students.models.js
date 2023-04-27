@@ -13,7 +13,7 @@ const studentsSchema = new mongoose.Schema({
   image: {
     type: String,
     default:
-      "default.jpg",
+     `students/default.jpg`,
   },
   documents: [String],
   address: {
